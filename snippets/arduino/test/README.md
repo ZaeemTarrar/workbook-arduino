@@ -2,6 +2,8 @@
 
 ## Blink An Led
 
+### Implemetation
+
 ```c++
 /**
   * Neccessary Definitions
@@ -38,4 +40,44 @@
 #define DIGITAL_PIN_6 D11  // SPI -> MOSI
 #define DIGITAL_PIN_7 D12  // SOI -> MISO
 #define DIGITAL_PIN_8 D13  // SPI -> SCK, [Built-In L.E.D]
+```
+
+```c++
+/**
+ * Re-Usable Methods/Functions
+ */
+void BlinkAnLed(pin, onDelay, offDelay) {
+  try {
+     // Switched On
+     digitalWrite(pin,HIGH)
+     delay(onDelay)
+     // Switched Off
+     digitalWrite(pin,LOW)
+     delay(offDelay)
+  } catch (Exception err) {
+    Serial.print("[BlinkAnLed-Error]: " + err.message)
+  }
+}
+```
+
+```c++
+/**
+ * Main Setup Method [Runs Once]
+ */
+void setup() {
+  // Serial Configurations
+  Serial.begin(FREQUENCY)
+
+  // Pin Configurations
+  pinMode(DIGITAL_PIN_8, OUTPUT);
+}
+```
+
+```c++
+/**
+ * Main Loop Method [Keeps Running]
+ */
+void loop() {
+  BlinkAnLed(DIGITAL_PIN_8, 1000, 500)
+}
 ```
