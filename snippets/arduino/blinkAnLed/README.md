@@ -12,7 +12,7 @@ ANALOG PINS:  `A0` `A1` `A2` `A3` `A4` `A5`
 
 DIGITAL PINS:  `D0` `D1` `D2` `D3` `D4` `D5` `D6` `D7` `D8` `D9` `D10` `D11` `D12` `D13` 
 
-![alt text](https://www.oreilly.com/library/view/mastering-arduino/9781788830584/assets/e02fd8cb-b102-48c1-94ea-dfb1810a644b.png)
+![alt text](https://lh3.googleusercontent.com/proxy/Do6pVqIv9LdvV7c0TNwt8fXhiPqzvu0TJcbLUL0D6vrnckoYDZlhKkM7VFDpconOCY3D_RqkFYofA6I99eKC86GBwB7NcOMrKtLDEiBkumkB7EM42R6eg8vdchFeLIACOd9AFCbKVekdGadmki2_UJRwbHAoaTTCMJSbVDU)
 
 ### Library Imports
 
