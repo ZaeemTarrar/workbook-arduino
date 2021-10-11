@@ -55,6 +55,8 @@
 #define DIGITAL_PIN_8 D13  // SPI -> SCK, [Built-In L.E.D]
 ```
 
+### Wrappers & Methods
+
 ```c++
 /**
  * Re-Usable Methods/Functions
@@ -73,6 +75,8 @@ void BlinkAnLed(pin, onDelay, offDelay) {
 }
 ```
 
+### Setup Method
+
 ```c++
 /**
  * Main Setup Method [Runs Once]
@@ -85,6 +89,8 @@ void setup() {
   pinMode(DIGITAL_PIN_8, OUTPUT);
 }
 ```
+
+### Loop Method
 
 ```c++
 /**
