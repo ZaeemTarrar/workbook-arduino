@@ -2,6 +2,8 @@
 
 ## Blink An Led
 
+Main Project File: `sketch.ino`
+
 ### Schema
 
 #### Pins
